@@ -1,4 +1,4 @@
 numbers = []
-for i in range(int(input())):
-	numbers.append(int(input()))
+for i in range(int(input("Введите количество чисел:"))):
+	numbers.append(int(input("Введите числа:")))
 print(list(reversed(sorted(numbers))))
