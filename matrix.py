@@ -43,15 +43,15 @@ if operacia == "+":
 	print(a1, b1, c1)
 
 if operacia == "*":
-	X1 = x*X
-	Y1 = y*Y
-	Z1 = z*Z
-	M1 = m*M
-	N1 = n*N
-	S1 = s*S
-	A1 = a*A
-	B1 = b*B
-	C1 = c*C
+	X1 = x*X+y*M+z*A
+	Y1 = x*Y+y*N+z*B
+	Z1 = x*Z+y*S+z*C
+	M1 = m*X+n*M+s*A
+	N1 = m*Y+n*N+s*B
+	S1 = m*Z+n*S+s*C
+	A1 = a*X+b*Y+c*Z
+	B1 = a*Y+b*N+c*B
+	C1 = a*Z+b*S+c*C
 	print("Результат умножения матриц: ")
 	print(X1, Y1, Z1)
 	print(M1, N1, S1)
